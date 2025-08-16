@@ -6,3 +6,5 @@ import seaborn as sns
 import kagglehub
 import shutil
 import os
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.preprocessing import StandardScaler
